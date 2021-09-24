@@ -1,4 +1,24 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Sidewalk Softbox'
-theme = 'ananke' 
+theme = 'gokarna' 
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+
+[params]
+  footer = "Sidewalk Softbox"
+  description = "Bringing soft light photography to the streets"
+  avatarURL = "/images/SoftboxOnWheels.png"
+  avatarSize = "size-m"
+
+  socialIcons = [
+    {name = "twitter", url = "https://twitter.com/SidewalkSoftbox"},
+    {name = "instagram", url = "https://www.instagram.com/sidewalksoftbox/"},
+  ]
+
+  [menu]
+  [[menu.main]]
+    name = "Support"
+    url = "mailto: support@sidewalksoftbox.com"
+    weight = 1
